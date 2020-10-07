@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./img/Desktop-1.png');
+    background-repeat: no-repeat;
+    padding: 0 100px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.first__left {
+    width: 40%;
+}
+.first__left img {
+    transform: translateY(5px);
+}
+.first__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    width: 60%;
+}
+.first__list {
+    display: flex;
+    list-style-type: none;
+}
+.first__item {
+    max-width: 205px;
+    margin-left: 80px;
+    text-align: center;
+    color: #003E6D;
+}
+.first__btn {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 177px 0 112px 0;
+    align-self: flex-start;
+    background-color: #FFFFFF;
+    color: #0068B7;
+    width: 300px;
+    height: 77px;
+    border: 0;
+    font-size: 28px;
+    line-height: 1;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 20%;
+    font-weight: 500;
+}
+.section__title {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 93px;
+    text-align: right;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+/* second */
+.second {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url('./img/Desktop-2.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.second__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.second__item {
+    display: flex;
+    align-items: center;
+    margin-left: 88px;
+    max-width: 480px;
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.second__item_text {
+    height: fit-content;
+}
+.second__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #0068B7;
+    margin: 118px 0 80px 0;
+    width: 380px;
+    height: 77px;
+    border: 0;
+    font-size: 28px;
+    line-height: 1;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 20%;
+    font-weight: 500;
+}
+.second .section__title {
+    text-shadow: none;
+    filter: none;
+}
+.section__pretitle {
+    font-size: 30px;
+    line-height: 37px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+    margin-top: 240px;
+    text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 -1px 1px 0, #000000 1px -1px 0;
+}
+
+/* three */
+.three {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url('./img/Desktop-3.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.three .section__title {
+    margin-top: 156px;
+    text-shadow: none;
+    font-size: 70px;
+}
+.section__postitle {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+.three__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #0068B7;
+    margin-bottom: 90px;
+    width: 380px;
+    height: 77px;
+    border: 0;
+    font-size: 28px;
+    line-height: 1;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 20%;
+    font-weight: 500;
+}
+.three__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.three__item {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.three__item_text {
+    font-size: 25px;
+    height: fit-content;
+}
+.three__item_icon {
+    margin-right: 25px;
+}
